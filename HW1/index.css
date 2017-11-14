@@ -1,0 +1,77 @@
+/* 
+    Yu Fu
+    CSE 154, Spring 2015
+    Assignment 1
+    index.css
+
+    style for index.html
+*/
+
+h1, h2, h3 {
+	color: rgb(67, 67, 67);
+	display: table;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	text-decoration: underline;
+}
+
+h1, h2 {
+	font-weight: bold;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 26pt;
+}
+
+h2 {
+	font-size: 24pt;
+}
+
+h3 {
+	font-size: 22pt;
+	font-weight: normal;
+	text-align: left;
+}
+
+body {
+	background-color: rgb(218, 201, 166);
+	color: rgb(74, 89, 61);
+	font-family: Georgia, Garamond, serif;
+	font-size: 18pt;
+}
+
+em {
+	color: rgb(215, 84, 85);
+	font-style: italic;
+}
+
+strong {
+	font-weight: bolder;
+	color: rgb(181, 68, 52);
+}
+
+del {
+	font-size: 5pt;
+}
+
+a {
+	color: rgb(74, 89, 61);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

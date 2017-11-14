@@ -1,0 +1,66 @@
+/* CSE 154 AE
+   Assignment 5
+   Yu Fu
+   
+   bacon.css
+   Stylesheet for mymdb.php, search-all.php and search-kevin.php
+*/
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+#banner {
+    font-weight: bold;
+}
+
+table, form, #frame {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner, #w3c, #main {
+    padding: 1em;
+}
+
+.title-col {
+    width: 45em;
+}
+
+body, tr:nth-child(2n) {
+    background-color: #DAD9D4;
+}
+
+td {
+    margin: 0;
+    padding: 5px 5px 0 0;
+}
+
+table {
+    border: 1px solid #DAD9D4;
+    border-collapse: collapse;
+}
+
+table, form {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#frame {
+    width: 90%;
+}
+
+#banner, #w3c {
+    background-image: url(https://webster.cs.washington.edu/images/kevinbacon/banner-background.png);
+    color: white;
+}
+
+#main {
+    background-color: white;
+    text-align: center;
+}
+
+form {
+    width: 24em;
+}

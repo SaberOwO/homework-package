@@ -1,0 +1,133 @@
+/* 
+   Yu Fu
+   CSE 154 AE, Spring 2015
+   TA: Colin Miller
+   Assignment 3
+   
+   This is the stylesheet for tmnt.php
+*/
+
+body {
+	background-image: url("https://webster.cs.washington.edu/images/moviebg.png");
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	margin: 0;
+	padding: 0;
+}
+
+.banner {
+	background-image: url("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+	background-repeat: repeat-x;
+	height: 50px;
+	text-align: center;
+}
+
+h1, .review-content {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 3px 3px #999999;
+}
+
+#overallContent, .review-content, .review-person {
+	overflow: hidden;
+}
+
+#overallContent {
+	background-color: #EEEEEE;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px gray;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+#overallLeft {
+	float: left;
+	width: 550px;
+}
+
+#overallRight {
+	float: right;
+	width: 250px;
+}
+
+.rateBanner {
+	background-image: url("https://webster.cs.washington.edu/images/rottenlargebg.png");
+	background-repeat: repeat-x;
+	clear: both;
+	color: red;
+	font-size: 48pt;
+	font-weight: bold;
+	height: 83px;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.rateBanner img {
+	vertical-align: bottom;
+}
+
+.review-column {
+	float: left;
+	margin-left: 2%;
+	width: 47%;
+}
+
+.review-content {
+	background-color: #FFFFFF;
+	border-color: #CCCCCC;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 2px;
+	padding: 8px;
+}
+
+.review-person {
+	margin-bottom: 20pt;
+}
+
+.review-person span {
+	font-style: italic;
+}
+
+.review-content img, .review-person img {
+	float: left;
+	margin-right: 5px;
+}
+
+#overallRight dl {
+	margin-top: 0;
+	padding-left: 10pt;
+	padding-right: 10pt;
+}
+
+#overallRight dt {
+	font-weight: bold;
+	margin-top: 10pt;
+}
+
+#overallRight ul {
+	list-style: none;
+	padding: 0;
+}
+
+#overallButtom {
+	clear: both;
+	margin-bottom: 0;
+	padding: 5px;
+	text-align: center;
+}
+
+#overallRight, #overallButtom {
+	background-color: #A2B964;
+}
+
+#validator {
+	text-align: right;
+}
+

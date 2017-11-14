@@ -1,0 +1,91 @@
+/* 
+   CSE 154 
+   Assignment 6
+   speedreader.css
+   
+   Yu Fu
+
+   This is the stylesheet for speedreader.html
+*/
+
+h1, #reader, body {
+    text-align: center;
+}
+
+body, button, select, textarea {
+    font-family: Garamond, serif;
+    font-size: 12pt;
+}
+
+body {
+    background-color: #EAF6F6;
+}
+
+#reader, textarea {
+    background-color: #FFFFFF;
+}
+
+#reader {
+    border-radius: 5px;
+    border: 2px solid #8EBEBE;
+    font-family: monospace;
+    font-size: 36pt;
+    height: 100px;
+    line-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#reader p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+label {
+    border-bottom: 1px solid #8EBEBE;
+    display: block;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    width: 100%;
+ }
+
+#reader, label {
+    font-weight: bold;
+}
+
+fieldset {
+    border: none;
+    display: inline-block;
+    line-height: 14px;
+    padding-top: 2px;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+textarea, button {
+    border: 1px solid gray;
+}
+
+button {
+    background-color: white;
+    width: 70px;
+}
+
+button:disabled {
+    background-color: lightgray;
+}
+
+#w3c {
+    bottom: 5px;
+    left: 5px;
+    position: fixed;
+}
+
+#w3c img {
+    vertical-align: bottom;
+    width: 70px;
+}

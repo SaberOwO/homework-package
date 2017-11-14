@@ -1,0 +1,40 @@
+/* 
+   CSE 154 
+   Assignment 7
+   fifteen.css
+   
+   Yu Fu
+
+   This is the stylesheet for fifteen.html
+*/
+
+body, button {
+    font-family: cursive;
+    font-size: 14pt;
+    text-align: center;
+}
+
+#puzzlearea {
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 400px;
+}
+
+.tile {
+    background-image: url("background.jpg");
+    border: 5px solid black;
+    cursor: default;
+    font-size: 40pt;
+    height: 90px;
+    margin: 0;
+    position: absolute;
+    width: 90px;
+}
+
+.movable:hover {
+    border-color: red;
+    color: red;
+    cursor: pointer;
+}
